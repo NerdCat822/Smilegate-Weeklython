@@ -3,14 +3,15 @@
 
 - 타겟: 교육 빈곤층
 ![스마일게이트-위클리톤-발표자료_page-0003](https://github.com/user-attachments/assets/b4d8ac80-0a82-4df0-b17c-681254e266e5)
+
 - 문제 생성, 자동 채점, 오답 교정 기능을 제공하여 교육 빈곤층의 학습권 보장
 ![스마일게이트-위클리톤-발표자료_page-0008](https://github.com/user-attachments/assets/2441c866-2d81-4d03-a642-e866ef5fcd15)
 
 ## Frontend
 1. 가상환경 및 필요 라이브러리 설치
 ```shell
-python -m venv venv
-source venv/bin/activate
+conda create -n conda-venv
+conda activate conda-venv
 pip install -r requirement.txt
 ```
 
@@ -34,6 +35,7 @@ streamlit run app.py
      5. 유사문제 생성
 <img width="1552" alt="341984982-3ae7e41b-c289-4629-8472-f33357d7cc87" src="https://github.com/user-attachments/assets/0c62bd74-2ae6-4a41-a6c9-633aaedbf03d">
 <img width="347" alt="문제풀이 확대" src="https://github.com/user-attachments/assets/c720d4b4-827f-47b1-be83-1ca05312b6b5">
+
 - 문제풀이 서비스 실제 화면
 <img width="961" alt="문제풀이화면" src="https://github.com/user-attachments/assets/07577f30-b8a3-4e1f-8d08-927852cc66ce">
 
